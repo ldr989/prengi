@@ -33,6 +33,51 @@
   font-weight: 100;
   font-style: normal;
 }
+* {
+  font-family: "Roboto", sans-serif;
+}
+
 .container {
   width: 1140px;
+  margin: 0 auto;
+}
+
+.main__branches {
+  display: flex;
+  justify-content: space-between;
+  height: 85px;
+  padding: 19px 0;
+}
+.main__item {
+  width: 230px;
+  display: flex;
+}
+.main__flag {
+  margin-left: 0;
+  width: 28px;
+  height: 21px;
+}
+.main__text {
+  margin-left: 11px;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 300;
+}
+.main__text a {
+  display: block;
+  font-size: 12px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #242424;
+}
+.main__country {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #242424;
+}
+
+.header {
+  min-height: 700px;
+  background: url("../img/bg/main_bg.jpg") center center/cover no-repeat;
 }

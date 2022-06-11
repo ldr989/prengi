@@ -1,0 +1,36 @@
+.main {
+    &__branches {
+        display: flex;
+        justify-content: space-between;
+        height: 85px;
+        padding: 19px 0;
+    }
+    &__item {
+        width: 230px;
+        display: flex;
+    }
+    &__flag {
+        margin-left: 0;
+        width: 28px;
+        height: 21px;
+    }
+    &__text {
+        margin-left: 11px;
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 300;
+        a {
+            display: block;
+            font-size: 12px;
+            font-weight: 300;
+            text-decoration: none;
+            color: #242424;
+        }
+    }
+    &__country {
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 700;
+        color: #242424;
+    }
+}

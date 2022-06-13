@@ -80,4 +80,24 @@
 .header {
   min-height: 700px;
   background: url("../img/bg/main_bg.jpg") center center/cover no-repeat;
+  padding-top: 39px;
+}
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+}
+.header__menu-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 540px;
+  list-style-type: none;
+}
+.header__menu-list a {
+  font-size: 13px;
+  line-height: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
 }

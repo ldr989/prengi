@@ -523,27 +523,69 @@ progress {
   color: #242424;
 }
 
-.header {
+.promo {
   min-height: 700px;
   background: url("../img/bg/main_bg.jpg") center center/cover no-repeat;
   padding-top: 39px;
 }
-.header__menu {
+.promo__logo {
+  width: 140px;
+  height: 65px;
+}
+.promo__logo img {
+  width: 100%;
+}
+.promo__menu {
   display: flex;
   justify-content: space-between;
 }
-.header__menu-list {
+.promo__menu-list {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
   width: 540px;
   list-style-type: none;
+  margin-bottom: 0;
 }
-.header__menu-list a {
+.promo__menu-list a {
   font-size: 13px;
-  line-height: 26px;
+  line-height: 13px;
   font-weight: 700;
   text-transform: uppercase;
   color: #ffffff;
   text-decoration: none;
+}
+.promo__header {
+  width: 535px;
+  margin-top: 133px;
+}
+.promo__header h1 {
+  font-size: 42px;
+  line-height: 48px;
+  font-weight: 900;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.promo__header h2 {
+  margin-top: 27px;
+  margin-bottom: 0;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.button {
+  width: 241px;
+  height: 60px;
+  background-color: #00c2f0;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.07);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 39px;
 }

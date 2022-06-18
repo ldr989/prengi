@@ -22,6 +22,8 @@ const swiper = new Swiper('.image-slider', {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
+    
+    slidesPerView: 1,
 
     // And if we need scrollbar
 });

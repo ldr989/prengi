@@ -1367,6 +1367,9 @@ button.swiper-pagination-bullet {
 .image-slider__image {
   text-align: right;
 }
+.image-slider__image img {
+  max-width: 100%;
+}
 .image-slider .swiper-button-prev {
   top: 86%;
   left: 0;

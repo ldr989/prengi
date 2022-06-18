@@ -4,6 +4,9 @@
     height: 569px;
     &__image {
         text-align: right;
+        img {
+            max-width: 100%;
+        }
     }
     .swiper-button-prev {
         top: 86%;

@@ -25,5 +25,29 @@ const swiper = new Swiper('.image-slider', {
     
     slidesPerView: 1,
 
+    grabCursor: true,
+
+    // And if we need scrollbar
+});
+const swiper2 = new Swiper('.image-slider-s2', {
+    // configure Swiper to use modules
+    loop: true,
+
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+
+    slidesPerView: 1,
+
+    grabCursor: true,
+
     // And if we need scrollbar
 });

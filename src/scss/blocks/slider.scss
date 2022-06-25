@@ -43,3 +43,15 @@
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
     margin: 0 3px;
 }
+.image-slider-s2 {
+    margin-top: 125px;
+    width: 1050px;
+    height: 660px;
+    &__image {
+            text-align: center;
+    
+            img {
+                max-width: 100%;
+            }
+    }
+}

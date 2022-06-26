@@ -1403,15 +1403,26 @@ button.swiper-pagination-bullet {
 }
 
 .image-slider-s2 {
-  margin-top: 125px;
+  padding-top: 125px;
   width: 1050px;
-  height: 660px;
+  min-height: 660px;
+  /* .swiper-pagination-bullet {
+
+  } */
 }
 .image-slider-s2__image {
   text-align: center;
 }
 .image-slider-s2__image img {
   max-width: 100%;
+}
+.image-slider-s2 .swiper-pagination-horizontal {
+  top: 26px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 65px;
+  width: 840px;
+  border: 1px solid #ffffff;
 }
 
 .with {

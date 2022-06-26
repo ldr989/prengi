@@ -37,8 +37,16 @@ const swiper2 = new Swiper('.image-slider-s2', {
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
+        type: "custom",
+        paginationCustomRender: function (swiper, current, total) {
+            var names = [];
+            $(".swiper-wrapper .swiper-slide").each(function (i) {
+                names.push($(this).data("name"));
+            });
+        }
     },
-
+    
+    
     // Navigation arrows
     navigation: {
         nextEl: '.swiper-button-next',

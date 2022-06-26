@@ -44,14 +44,24 @@
     margin: 0 3px;
 }
 .image-slider-s2 {
-    margin-top: 125px;
+    padding-top: 125px;
     width: 1050px;
-    height: 660px;
+    min-height: 660px;
     &__image {
             text-align: center;
-    
-            img {
+        img {
                 max-width: 100%;
             }
     }
+    .swiper-pagination-horizontal {
+        top: 26px;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 65px;
+        width: 840px;
+        border: 1px solid #ffffff;
+    }
+    /* .swiper-pagination-bullet {
+        
+    } */
 }

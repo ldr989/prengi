@@ -34,17 +34,6 @@ const swiper2 = new Swiper('.image-slider-s2', {
     loop: true,
 
     // If we need pagination
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-        type: "custom",
-        paginationCustomRender: function (swiper, current, total) {
-            var names = [];
-            $(".swiper-wrapper .swiper-slide").each(function (i) {
-                names.push($(this).data("name"));
-            });
-        }
-    },
     
     
     // Navigation arrows
@@ -58,4 +47,4 @@ const swiper2 = new Swiper('.image-slider-s2', {
     grabCursor: true,
 
     // And if we need scrollbar
-});
+})

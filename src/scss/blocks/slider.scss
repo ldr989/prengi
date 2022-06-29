@@ -52,15 +52,7 @@
                 max-width: 100%;
             }
     }
-    .swiper-pagination-horizontal {
-        top: 26px;
-        left: 50%;
-        transform: translateX(-50%);
-        height: 65px;
-        width: 840px;
-        border: 1px solid #ffffff;
+    &__wrapper {
+        margin-top: 36px;
     }
-    /* .swiper-pagination-bullet {
-        
-    } */
 }

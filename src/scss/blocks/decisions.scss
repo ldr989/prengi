@@ -13,16 +13,23 @@
         margin: 0 auto;
         margin-top: 25px;
         list-style-type: none;
-        padding: 0;
+        padding: 0 32px;
         li+li {
             border-left: 1px solid rgba($color: #fff, $alpha: 0.3);
             padding-left: 3%;
             }
         &__item {
-                font-size: 14px;
                 line-height: 50px;
                 font-weight: 400;
-                color: #ffffff;
+                a {
+                    text-decoration: none;
+                    font-size: 14px;
+                    color: #ffffff;
+                    &:hover {
+                        font-weight: 700;
+                        color: $main-color;
+                    } 
+                }
             }
                 
         }

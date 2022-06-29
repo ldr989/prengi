@@ -1403,7 +1403,6 @@ button.swiper-pagination-bullet {
 }
 
 .image-slider-s2 {
-  padding-top: 125px;
   width: 1050px;
   min-height: 660px;
   /* .swiper-pagination-bullet {
@@ -1512,6 +1511,29 @@ button.swiper-pagination-bullet {
   min-height: 889px;
   padding: 79px 0 61px 0;
   background: url("../img/bg/smile_bg.jpg") center center/cover no-repeat;
+}
+.decisions-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 843px;
+  height: 64px;
+  border: 1px solid #ffffff;
+  margin: 0 auto;
+  margin-top: 25px;
+  list-style-type: none;
+  padding: 0;
+}
+.decisions-menu li + li {
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  padding-left: 3%;
+}
+.decisions-menu__item {
+  font-size: 14px;
+  line-height: 50px;
+  font-weight: 400;
+  color: #ffffff;
 }
 
 .title {

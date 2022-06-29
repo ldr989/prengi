@@ -2,4 +2,28 @@
     min-height: 889px;
 	padding: 79px 0 61px 0;
     background: url('../img/bg/smile_bg.jpg') center (center/cover) no-repeat;
+    &-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 843px;
+        height: 64px;
+        border: 1px solid #ffffff;
+        margin: 0 auto;
+        margin-top: 25px;
+        list-style-type: none;
+        padding: 0;
+        li+li {
+            border-left: 1px solid rgba($color: #fff, $alpha: 0.3);
+            padding-left: 3%;
+            }
+        &__item {
+                font-size: 14px;
+                line-height: 50px;
+                font-weight: 400;
+                color: #ffffff;
+            }
+                
+        }
 }

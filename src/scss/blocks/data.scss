@@ -1,0 +1,72 @@
+.data {
+    min-height: 580px;
+    position: relative;
+    &__bg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 50%;
+        height: 580px;
+        background: url('../img/bg/keyboard_bg.jpg') center (center/cover) no-repeat;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding: 0 40px;
+        z-index: -1;
+        &_server {
+            left: 50%;
+            background: url('../img/bg/server_bg.jpg') center (center/cover) no-repeat;
+            justify-content: start;
+        }
+        
+    }
+    &__wrapped {
+        margin-top: 85px;
+        width: 500px;
+        height: 167px;
+        position: relative;
+    }
+    &__header {
+        margin-top: 38px;
+        font-size: 30px;
+        line-height: 22px;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: right;
+        z-index: 1;
+        margin-right: 40px;
+        &_left {
+            text-align: left;
+            margin-right: 0;
+            margin-left: 40px;
+        }
+    }
+    &__subheader {
+        margin-top: 20px;
+        font-size: 17px;
+        line-height: 26px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: right;
+        z-index: 1;
+        margin-right: 40px;
+        &_left {
+            text-align: left;
+            margin-right: 0;
+            margin-left: 40px;
+        }
+    }
+    &__square {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 167px;
+        height: 167px;
+        background: rgba($color: $main-color , $alpha: 0.3);
+        z-index: -2;
+        &_left {
+            left: 0;
+        }
+    }
+}

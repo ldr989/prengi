@@ -55,4 +55,10 @@
     &__wrapper {
         margin-top: 36px;
     }
+    .swiper-button-prev, .swiper-button-next {
+        top: 55%;
+        &:after {
+            color: $main-color;
+        }
+    }
 }

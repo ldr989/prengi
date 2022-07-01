@@ -1415,6 +1415,12 @@ button.swiper-pagination-bullet {
 .image-slider-s2__wrapper {
   margin-top: 36px;
 }
+.image-slider-s2 .swiper-button-prev, .image-slider-s2 .swiper-button-next {
+  top: 55%;
+}
+.image-slider-s2 .swiper-button-prev:after, .image-slider-s2 .swiper-button-next:after {
+  color: #00c2f0;
+}
 
 .with {
   min-height: 896px;
@@ -1541,5 +1547,47 @@ button.swiper-pagination-bullet {
   line-height: 35px;
   font-weight: 900;
   color: #ffffff;
+  text-align: center;
+}
+.title_black {
+  color: #393939;
+}
+
+.advantages {
+  min-height: 1334px;
+  padding: 80px 0;
+}
+.advantages__wrapper {
+  margin-top: 44px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.advantages__img {
+  width: 570px;
+}
+.advantages__img img {
+  width: 100%;
+}
+.advantages__item {
+  position: relative;
+}
+.advantages__bg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 156px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.43);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 114px;
+}
+.advantages__text {
+  font-size: 23px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #ffffff;
+  z-index: 1;
   text-align: center;
 }

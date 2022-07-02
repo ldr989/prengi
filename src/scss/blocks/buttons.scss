@@ -9,5 +9,12 @@
     font-weight: 700;
     text-transform: uppercase;
     color: #ffffff;
-    margin-top: 39px;
+    &_mt {
+        margin-top: 39px;
+    }
+    &_centre {
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
 }

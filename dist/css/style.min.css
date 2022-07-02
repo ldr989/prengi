@@ -592,7 +592,14 @@ progress {
   font-weight: 700;
   text-transform: uppercase;
   color: #ffffff;
+}
+.button_mt {
   margin-top: 39px;
+}
+.button_centre {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 
 /**
@@ -1552,6 +1559,9 @@ button.swiper-pagination-bullet {
 .title_black {
   color: #393939;
 }
+.title_mt {
+  margin-top: 74px;
+}
 .title_in-front {
   width: 375px;
   position: absolute;
@@ -1670,4 +1680,81 @@ button.swiper-pagination-bullet {
 }
 .data__square_left {
   left: 0;
+}
+
+.access {
+  min-height: 690px;
+  padding: 80px 0;
+}
+.access__square {
+  width: 302px;
+  height: 302px;
+  margin: 0 auto;
+  position: relative;
+}
+.access__click {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 240px;
+  height: 240px;
+}
+.access__click img {
+  max-width: 100%;
+}
+.access__square-corners {
+  position: relative;
+  width: 302px;
+  height: 302px;
+}
+.access__square-corners span {
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background-color: #00c2f0;
+  border-radius: 2px;
+}
+.access__square-corners-vertical {
+  left: -19px;
+  top: 19px;
+  transform: rotate(90deg);
+  float: left;
+}
+.access__square-corners-vertical_bottom-left {
+  bottom: 19px;
+  top: auto;
+}
+.access__square-corners-vertical_top-right {
+  float: right;
+  right: -19px;
+  left: auto;
+}
+.access__square-corners-vertical_bottom-right {
+  float: right;
+  right: -19px;
+  bottom: 19px;
+  top: auto;
+  left: auto;
+}
+.access__square-corners-horizontal {
+  left: 0;
+  top: 0;
+  float: left;
+}
+.access__square-corners-horizontal_bottom-left {
+  bottom: 0;
+  top: auto;
+}
+.access__square-corners-horizontal_top-right {
+  float: right;
+  right: 0;
+  left: auto;
+}
+.access__square-corners-horizontal_bottom-right {
+  float: right;
+  right: 0;
+  bottom: 0;
+  top: auto;
+  left: auto;
 }

@@ -488,6 +488,12 @@ progress {
   margin: 0 auto;
 }
 
+.main a {
+  transition: 0.3s all;
+}
+.main a:hover {
+  color: #00c2f0;
+}
 .main__branches {
   display: flex;
   justify-content: space-between;
@@ -555,6 +561,10 @@ progress {
   text-transform: uppercase;
   color: #ffffff;
   text-decoration: none;
+  transition: 0.3s all;
+}
+.promo__menu-list a:hover {
+  color: #00c2f0;
 }
 .promo__header {
   width: 535px;
@@ -1757,4 +1767,74 @@ button.swiper-pagination-bullet {
   bottom: 0;
   top: auto;
   left: auto;
+}
+
+.footer {
+  min-height: 497px;
+  background-color: #0082a1;
+  padding: 49px 0 40px 0;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 300;
+  color: #ffffff;
+}
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 3px;
+}
+.footer h2 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+}
+.footer a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.3s all;
+}
+.footer a:hover {
+  color: #00c2f0;
+}
+.footer__company {
+  width: 385px;
+}
+.footer__company-logo {
+  margin-top: 20px;
+  width: 177px;
+  height: 61px;
+}
+.footer__company-logo img {
+  max-width: 100%;
+}
+.footer__company-descr {
+  line-height: 19px;
+  margin-top: 25px;
+}
+.footer__modules {
+  width: 264px;
+}
+.footer__industries {
+  width: 120px;
+}
+.footer__about-us {
+  width: 115px;
+}
+.footer__divider {
+  margin-top: 44px;
+  width: 1171px;
+  height: 1px;
+  opacity: 0.3;
+  background-color: #4da8be;
+}
+.footer__rights {
+  margin-top: 36px;
+  text-align: center;
+  font-size: 13px;
 }

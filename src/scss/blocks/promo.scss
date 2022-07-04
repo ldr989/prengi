@@ -27,6 +27,10 @@
                 text-transform: uppercase;
                 color: #ffffff;
                 text-decoration: none;
+                transition: 0.3s all;
+                &:hover {
+                    color: $main-color;
+                }
             }
         }
     }

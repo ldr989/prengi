@@ -1,4 +1,10 @@
 .main {
+    a {
+        transition: 0.3s all;
+        &:hover {
+            color: $main-color;
+        }
+    }
     &__branches {
         display: flex;
         justify-content: space-between;

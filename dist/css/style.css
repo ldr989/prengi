@@ -603,6 +603,9 @@ progress {
   text-transform: uppercase;
   color: #ffffff;
 }
+.button:hover {
+  background-color: #0bb3dd;
+}
 .button_mt {
   margin-top: 39px;
 }

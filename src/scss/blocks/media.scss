@@ -1,0 +1,38 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 950px;
+    }
+    .main {
+        &__country {
+            font-size: 12px;
+        }
+        &__text {
+            a {
+                font-size: 9px;
+            }
+        }
+    }
+    .with {
+        &__item, &__img {
+            width: 300px;
+            height: 212.5px;
+        }
+        &__descr {
+            font-size: 16px;
+            line-height: 20px;
+            bottom: 32px
+        }
+        &__header {
+            font-size: 45px;
+        }
+    }
+    .decisions {
+        .image-slider-s2 {
+            width: 950px;
+        }
+    }
+}
+    
+// @media (max-width: 991px)
+// @media (max-width: 767px)
+// @media (max-width: 575px)

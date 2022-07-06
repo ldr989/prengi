@@ -511,9 +511,6 @@ progress {
 }
 .main__text {
   margin-left: 11px;
-  font-size: 12px;
-  line-height: 18px;
-  font-weight: 300;
 }
 .main__text a {
   display: block;
@@ -589,6 +586,7 @@ progress {
   display: flex;
   justify-content: space-between;
   min-width: 0;
+  height: 596px;
 }
 
 .button {
@@ -1469,7 +1467,7 @@ button.swiper-pagination-bullet {
   width: 237px;
   padding: 0;
   position: absolute;
-  top: 176px;
+  bottom: 36px;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -1555,6 +1553,7 @@ button.swiper-pagination-bullet {
   text-decoration: none;
   font-size: 14px;
   color: #ffffff;
+  transition: 0.3s all;
 }
 .decisions-menu__item a:hover {
   font-weight: 700;
@@ -1830,8 +1829,9 @@ button.swiper-pagination-bullet {
   width: 115px;
 }
 .footer__divider {
+  margin: 0 auto;
   margin-top: 44px;
-  width: 1171px;
+  width: 100%;
   height: 1px;
   opacity: 0.3;
   background-color: #4da8be;
@@ -1840,4 +1840,31 @@ button.swiper-pagination-bullet {
   margin-top: 36px;
   text-align: center;
   font-size: 13px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 950px;
+  }
+  .main__country {
+    font-size: 12px;
+  }
+  .main__text a {
+    font-size: 9px;
+  }
+  .with__item, .with__img {
+    width: 300px;
+    height: 212.5px;
+  }
+  .with__descr {
+    font-size: 16px;
+    line-height: 20px;
+    bottom: 32px;
+  }
+  .with__header {
+    font-size: 45px;
+  }
+  .decisions .image-slider-s2 {
+    width: 950px;
+  }
 }

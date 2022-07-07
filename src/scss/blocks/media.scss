@@ -12,6 +12,14 @@
             }
         }
     }
+    .promo {
+        &__header {
+            h1 {
+                font-size: 40px;
+                line-height: 42px;
+            }
+        }
+    }
     .with {
         &__item, &__img {
             width: 300px;
@@ -29,6 +37,39 @@
     .decisions {
         .image-slider-s2 {
             width: 950px;
+        }
+    }
+    .advantages {
+        padding: 60px 0;
+        min-height: 1100px;
+        &__img {
+            width: 475px;
+        }
+        &__text {
+            font-size: 19px;
+            line-height: 22px;
+        }
+    }
+    .title {
+        font-size: 28px;
+    }
+    .data {
+        &__header {
+            font-size: 28px;
+            line-height: 20px;
+        }
+        &__subheader {
+            font-size: 13px;
+            line-height: 20px;
+        }
+        &__wrapped {
+            height: 160px;
+        }
+    }
+    .footer {
+        font-size: 11px;
+        h2 {
+            font-size: 15px;
         }
     }
 }

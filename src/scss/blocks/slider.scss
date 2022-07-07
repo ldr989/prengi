@@ -1,7 +1,10 @@
 .image-slider {
-    margin-top: 56px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
     width: 623px;
     height: 569px;
+    z-index: 2;
     &__image {
         text-align: right;
         img {

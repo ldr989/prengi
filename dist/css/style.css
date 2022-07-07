@@ -564,8 +564,10 @@ progress {
   color: #00c2f0;
 }
 .promo__header {
+  position: absolute;
   width: 535px;
   margin-top: 133px;
+  z-index: 3;
 }
 .promo__header h1 {
   font-size: 42px;
@@ -583,8 +585,7 @@ progress {
   color: #ffffff;
 }
 .promo__main {
-  display: flex;
-  justify-content: space-between;
+  position: relative;
   min-width: 0;
   height: 596px;
 }
@@ -1378,9 +1379,12 @@ button.swiper-pagination-bullet {
 }
 
 .image-slider {
-  margin-top: 56px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
   width: 623px;
   height: 569px;
+  z-index: 2;
 }
 .image-slider__image {
   text-align: right;
@@ -1685,8 +1689,8 @@ button.swiper-pagination-bullet {
   position: absolute;
   right: 0;
   top: 0;
-  width: 167px;
-  height: 167px;
+  width: 41%;
+  height: 100%;
   background: rgba(0, 194, 240, 0.3);
   z-index: -2;
 }
@@ -1852,6 +1856,10 @@ button.swiper-pagination-bullet {
   .main__text a {
     font-size: 9px;
   }
+  .promo__header h1 {
+    font-size: 40px;
+    line-height: 42px;
+  }
   .with__item, .with__img {
     width: 300px;
     height: 212.5px;
@@ -1866,5 +1874,36 @@ button.swiper-pagination-bullet {
   }
   .decisions .image-slider-s2 {
     width: 950px;
+  }
+  .advantages {
+    padding: 60px 0;
+    min-height: 1100px;
+  }
+  .advantages__img {
+    width: 475px;
+  }
+  .advantages__text {
+    font-size: 19px;
+    line-height: 22px;
+  }
+  .title {
+    font-size: 28px;
+  }
+  .data__header {
+    font-size: 28px;
+    line-height: 20px;
+  }
+  .data__subheader {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .data__wrapped {
+    height: 160px;
+  }
+  .footer {
+    font-size: 11px;
+  }
+  .footer h2 {
+    font-size: 15px;
   }
 }

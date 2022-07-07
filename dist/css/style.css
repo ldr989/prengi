@@ -1907,3 +1907,8 @@ button.swiper-pagination-bullet {
     font-size: 15px;
   }
 }
+@media (max-width: 991px) {
+  .container {
+    width: 720px;
+  }
+}

@@ -78,6 +78,179 @@
     .container {
         width: 720px;
     }
+    .main {
+        &__country {
+            font-size: 11px;
+        }
+        &__text {
+            margin-left: 5px;
+            a {
+                font-size: 7px;
+            }
+        }
+        &__item {
+            img {
+                width: 20px;
+                height: 17px;
+            }
+        }
+    }
+    .promo {
+        &__header {
+            width: 420px;
+            h1 {
+                font-size: 31px;
+                line-height: 35px;
+            }
+            h2 {
+                font-size: 18px;
+                line-height: 22px;
+            }
+        }
+    }
+    .image-slider {
+        width: 460px;
+        .swiper-pagination {
+            bottom: 69px;
+            left: -172px;
+        }
+        .swiper-button-prev {
+            top: 86%;
+            left: -8px;
+        }
+        .swiper-button-next {
+            top: 86%;
+            right: 337px;
+        }
+    }
+    .with {
+        min-height: 670px;
+        &__item, &__img {
+            width: 230px;
+            height: 162.906px;
+        }
+        &__descr {
+            font-size: 14px;
+            line-height: 18px;
+            bottom: 20px
+        }
+        &__header {
+            font-size: 35px;
+            line-height: 27px;
+            margin-top: 23px;
+        }
+        &__arrow {
+            margin-top: 30px;
+            width: 132px;
+            height: 62px;
+            &-left {
+                top: 42px;
+            }
+            &-right {
+                left: 61px;
+                top: 42px;
+            }
+            &-second {
+                top: 20px
+            }
+            
+        }
+        &__arrow {
+            &-right, &-left {
+                width: 76px;
+            }
+        }
+    }
+
+    .decisions {
+        min-height: 770px;
+        .image-slider-s2 {
+            width: 720px;
+            min-height: 550px;
+        }
+        &-menu {
+            width: 100%;
+            a {
+                font-size: 13px;
+            }
+        }
+    }
+    .title {
+        font-size: 26px;
+    }
+    .advantages {
+        padding: 40px 0;
+        min-height: 880px;
+        &__img {
+            width: 360px;
+        }
+        &__bg {
+            padding: 0 69px;
+        }
+        &__text {
+            font-size: 15px;
+            line-height: 17px;
+        }
+    }
+    .data {
+        &__bg {
+            padding: 0 20px;
+        }
+        &__header {
+            font-size: 19px;
+            line-height: 15px;
+            margin-right: 20px;
+            margin-top: 30px;
+            &_left {
+                margin-left: 20px;
+            }
+        }
+        &__subheader {
+            font-size: 11px;
+            line-height: 15px;
+            margin-right: 20px;
+            &_left {
+                margin-left: 20px;
+            }
+        }
+        &__wrapped {
+            height: 120px;
+        }
+    }
+    .footer {
+        font-size: 10px;
+        line-height: 15px;
+        min-height: 400px;
+        h2 {
+            font-size: 13px;
+        }
+        &__company {
+            width: 370px;
+            &-logo {
+                margin-top: 10px;
+            }
+            &-descr {
+                margin-top: 10px;
+            }
+        }
+        &__modules {
+            width: 240px;
+            padding-left: 10px;
+        }
+        &__idustries {
+            width: 115px;
+            padding-left: 10px;
+        }
+        &__about-us {
+            width: 110px;
+            padding-left: 10px;
+        }
+        &__rights {
+            margin-top: 34px;
+            font-size: 11px;
+        }
+    }
+
 }
 // @media (max-width: 767px)
 // @media (max-width: 575px)

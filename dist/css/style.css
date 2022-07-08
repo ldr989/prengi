@@ -1911,4 +1911,164 @@ button.swiper-pagination-bullet {
   .container {
     width: 720px;
   }
+  .main__country {
+    font-size: 11px;
+  }
+  .main__text {
+    margin-left: 5px;
+  }
+  .main__text a {
+    font-size: 7px;
+  }
+  .main__item img {
+    width: 20px;
+    height: 17px;
+  }
+  .promo__header {
+    width: 420px;
+  }
+  .promo__header h1 {
+    font-size: 31px;
+    line-height: 35px;
+  }
+  .promo__header h2 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .image-slider {
+    width: 460px;
+  }
+  .image-slider .swiper-pagination {
+    bottom: 69px;
+    left: -172px;
+  }
+  .image-slider .swiper-button-prev {
+    top: 86%;
+    left: -8px;
+  }
+  .image-slider .swiper-button-next {
+    top: 86%;
+    right: 337px;
+  }
+  .with {
+    min-height: 670px;
+  }
+  .with__item, .with__img {
+    width: 230px;
+    height: 162.906px;
+  }
+  .with__descr {
+    font-size: 14px;
+    line-height: 18px;
+    bottom: 20px;
+  }
+  .with__header {
+    font-size: 35px;
+    line-height: 27px;
+    margin-top: 23px;
+  }
+  .with__arrow {
+    margin-top: 30px;
+    width: 132px;
+    height: 62px;
+  }
+  .with__arrow-left {
+    top: 42px;
+  }
+  .with__arrow-right {
+    left: 61px;
+    top: 42px;
+  }
+  .with__arrow-second {
+    top: 20px;
+  }
+  .with__arrow-right, .with__arrow-left {
+    width: 76px;
+  }
+  .decisions {
+    min-height: 770px;
+  }
+  .decisions .image-slider-s2 {
+    width: 720px;
+    min-height: 550px;
+  }
+  .decisions-menu {
+    width: 100%;
+  }
+  .decisions-menu a {
+    font-size: 13px;
+  }
+  .title {
+    font-size: 26px;
+  }
+  .advantages {
+    padding: 40px 0;
+    min-height: 880px;
+  }
+  .advantages__img {
+    width: 360px;
+  }
+  .advantages__bg {
+    padding: 0 69px;
+  }
+  .advantages__text {
+    font-size: 15px;
+    line-height: 17px;
+  }
+  .data__bg {
+    padding: 0 20px;
+  }
+  .data__header {
+    font-size: 19px;
+    line-height: 15px;
+    margin-right: 20px;
+    margin-top: 30px;
+  }
+  .data__header_left {
+    margin-left: 20px;
+  }
+  .data__subheader {
+    font-size: 11px;
+    line-height: 15px;
+    margin-right: 20px;
+  }
+  .data__subheader_left {
+    margin-left: 20px;
+  }
+  .data__wrapped {
+    height: 120px;
+  }
+  .footer {
+    font-size: 10px;
+    line-height: 15px;
+    min-height: 400px;
+  }
+  .footer h2 {
+    font-size: 13px;
+  }
+  .footer__company {
+    width: 370px;
+  }
+  .footer__company-logo {
+    margin-top: 10px;
+  }
+  .footer__company-descr {
+    margin-top: 10px;
+  }
+  .footer__modules {
+    width: 240px;
+    padding-left: 10px;
+  }
+  .footer__idustries {
+    width: 115px;
+    padding-left: 10px;
+  }
+  .footer__about-us {
+    width: 110px;
+    padding-left: 10px;
+  }
+  .footer__rights {
+    margin-top: 34px;
+    font-size: 11px;
+  }
 }
